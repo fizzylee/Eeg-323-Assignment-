@@ -1,0 +1,18 @@
+namespace Dcoder
+ {
+   public class Program
+   {
+     public static void Main(string[] args)
+     {
+       //Your code goes here
+       Console.WriteLine("Enter your Grade");
+       int grade = Convert.ToInt32(Console.ReadLine());
+       if(grade<40)
+       Console.WriteLine("F");
+       else if(grade<=40)
+       Console.WriteLine("E");
+       else if(grade>=70)
+       Console.WriteLine("A");
+     }
+   }
+ }
